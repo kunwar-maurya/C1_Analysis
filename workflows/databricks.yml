@@ -1,0 +1,37 @@
+# Databricks Asset Bundle — Medallion pipeline job
+#
+# Purpose: optional deploy path for the Workflow defined in medallion_pipeline_job.json.
+# This file alone does NOT deploy anything until `databricks bundle deploy` is run
+# against a configured workspace.
+#
+# Prerequisites:
+# - Databricks CLI authenticated to the target workspace
+# - This repo available as the bundle root (or sync workflows/ + src/ + config/)
+#
+# Remaining step (manual):
+#   databricks bundle validate
+#   databricks bundle deploy -t <target>
+#   databricks bundle run ecommerce_medallion_pipeline -t <target>
+
+bundle:
+  name: databricks-medallion-pipeline
+
+include:
+  - medallion_pipeline_job.json
+
+# Prefer editing medallion_pipeline_job.json as the source of truth for task graph.
+# If your CLI/bundle version does not support including raw Jobs JSON, create the
+# Job from Workflows UI using that JSON / WORKFLOW_GUIDE.md instead.
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      # Set host when deploying, e.g. https://<workspace>.cloud.databricks.com
+      host: <TO BE PROVIDED>
+
+  prod:
+    mode: production
+    workspace:
+      host: <TO BE PROVIDED>

@@ -1,0 +1,123 @@
+{
+  "name": "ecommerce-medallion-pipeline",
+  "description": "Orchestrates existing Bronze → Silver → Gold Medallion scripts. Does not duplicate pipeline logic. Dashboard SQL remains a separate SQL warehouse step.",
+  "max_concurrent_runs": 1,
+  "parameters": [
+    {
+      "name": "raw_data_path",
+      "default": "/Volumes/ecommerce/landing/raw_files/raw_data"
+    },
+    {
+      "name": "catalog",
+      "default": "ecommerce"
+    },
+    {
+      "name": "bronze_schema",
+      "default": "bronze"
+    },
+    {
+      "name": "silver_schema",
+      "default": "silver"
+    },
+    {
+      "name": "gold_schema",
+      "default": "gold"
+    },
+    {
+      "name": "pipeline_run_id",
+      "default": ""
+    }
+  ],
+  "tasks": [
+    {
+      "task_key": "bronze_ingest",
+      "description": "Existing entry point: src/bronze/ingest_all.py → ingest_all()",
+      "spark_python_task": {
+        "python_file": "workflows/tasks/run_bronze.py",
+        "parameters": [
+          "--raw_data_path",
+          "{{job.parameters.raw_data_path}}",
+          "--catalog",
+          "{{job.parameters.catalog}}",
+          "--bronze_schema",
+          "{{job.parameters.bronze_schema}}",
+          "--silver_schema",
+          "{{job.parameters.silver_schema}}",
+          "--gold_schema",
+          "{{job.parameters.gold_schema}}",
+          "--pipeline_run_id",
+          "{{job.parameters.pipeline_run_id}}"
+        ]
+      },
+      "timeout_seconds": 7200
+    },
+    {
+      "task_key": "silver_quality",
+      "description": "Existing entry point: src/silver/create_silver_tables.py → create_silver_tables()",
+      "depends_on": [
+        {
+          "task_key": "bronze_ingest"
+        }
+      ],
+      "spark_python_task": {
+        "python_file": "workflows/tasks/run_silver.py",
+        "parameters": [
+          "--raw_data_path",
+          "{{job.parameters.raw_data_path}}",
+          "--catalog",
+          "{{job.parameters.catalog}}",
+          "--bronze_schema",
+          "{{job.parameters.bronze_schema}}",
+          "--silver_schema",
+          "{{job.parameters.silver_schema}}",
+          "--gold_schema",
+          "{{job.parameters.gold_schema}}",
+          "--pipeline_run_id",
+          "{{job.parameters.pipeline_run_id}}"
+        ]
+      },
+      "timeout_seconds": 7200
+    },
+    {
+      "task_key": "gold_aggregate",
+      "description": "Existing entry point: src/gold/create_gold_tables.py → create_gold_tables()",
+      "depends_on": [
+        {
+          "task_key": "silver_quality"
+        }
+      ],
+      "spark_python_task": {
+        "python_file": "workflows/tasks/run_gold.py",
+        "parameters": [
+          "--raw_data_path",
+          "{{job.parameters.raw_data_path}}",
+          "--catalog",
+          "{{job.parameters.catalog}}",
+          "--bronze_schema",
+          "{{job.parameters.bronze_schema}}",
+          "--silver_schema",
+          "{{job.parameters.silver_schema}}",
+          "--gold_schema",
+          "{{job.parameters.gold_schema}}",
+          "--pipeline_run_id",
+          "{{job.parameters.pipeline_run_id}}"
+        ]
+      },
+      "timeout_seconds": 7200
+    }
+  ],
+  "queue": {
+    "enabled": true
+  },
+  "tags": {
+    "project": "databricks-medallion-pipeline",
+    "layer": "orchestration"
+  },
+  "_deployment_notes": {
+    "status": "artifact_only_not_deployed",
+    "cluster": "Attach an existing all-purpose or job cluster (or job_cluster_key) when creating the Job in Databricks. This template intentionally omits cluster IDs.",
+    "source_files": "Point each spark_python_task.python_file to the Databricks Repo / Workspace path of this repository (e.g. /Workspace/Repos/<user>/databricks-medallion-pipeline/workflows/tasks/run_bronze.py), or deploy via Databricks Asset Bundle using workflows/databricks.yml.",
+    "config": "Ensure config/pipeline_config.json is available to the job working tree (Repos checkout). Overrides from job parameters take precedence for path/catalog/schemas.",
+    "forbidden_paths": "Do not set raw_data_path to FileStore, /dbfs, DBFS mounts, Windows paths, or hard-coded cloud URIs."
+  }
+}

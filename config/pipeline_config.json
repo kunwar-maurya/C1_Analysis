@@ -1,0 +1,36 @@
+{
+  "catalog": "ecommerce",
+  "bronze_schema": "bronze",
+  "silver_schema": "silver",
+  "gold_schema": "gold",
+  "raw_data_path": "/Volumes/ecommerce/landing/raw_files/raw_data",
+  "unity_catalog_volume": {
+    "catalog": "ecommerce",
+    "schema": "landing",
+    "volume": "raw_files",
+    "subdir": "raw_data",
+    "status": "placeholder",
+    "notes": "Create this Unity Catalog Volume (or update catalog/schema/volume/subdir to match your workspace) before Bronze ingest. Do not fall back to FileStore or DBFS."
+  },
+  "pipeline_run_id_prefix": "run",
+  "tables": {
+    "customers": "customers",
+    "orders": "orders",
+    "products": "products",
+    "quality_metrics": "quality_metrics",
+    "sales_by_product": "sales_by_product",
+    "revenue_by_customer": "revenue_by_customer",
+    "customer_segmentation": "customer_segmentation",
+    "daily_weekly_trends": "daily_weekly_trends"
+  },
+  "gold": {
+    "eligible_order_status": "Completed",
+    "segmentation": {
+      "high_value_min": 5000,
+      "medium_value_min": 1000
+    }
+  },
+  "quality": {
+    "amount_tolerance": 0.01
+  }
+}

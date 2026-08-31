@@ -1,0 +1,74 @@
+{
+  "intentional_issues": {
+    "customers_rows": 10010,
+    "orders_rows": 100020,
+    "products_rows": 500,
+    "null_emails": 50,
+    "duplicate_customer_id_records": 10,
+    "null_order_customer_id": 100,
+    "null_order_product_id": 200,
+    "orphan_customer_id": 50,
+    "orphan_product_id": 30,
+    "duplicate_order_id_records": 20,
+    "uniq_cust_fail_rows": 20,
+    "uniq_ord_fail_rows": 40
+  },
+  "quality_metrics_local_mirror": [
+    {
+      "rule_id": "COMP_CUST_EMAIL",
+      "dataset": "customers",
+      "total_records": 10010,
+      "passed": 9960,
+      "failed": 50,
+      "pass_percentage": 99.5005
+    },
+    {
+      "rule_id": "UNIQ_CUST_ID",
+      "dataset": "customers",
+      "total_records": 10010,
+      "passed": 9990,
+      "failed": 20,
+      "pass_percentage": 99.8002
+    },
+    {
+      "rule_id": "COMP_ORD_CUST",
+      "dataset": "orders",
+      "total_records": 100020,
+      "passed": 99920,
+      "failed": 100,
+      "pass_percentage": 99.9
+    },
+    {
+      "rule_id": "COMP_ORD_PROD",
+      "dataset": "orders",
+      "total_records": 100020,
+      "passed": 99820,
+      "failed": 200,
+      "pass_percentage": 99.8
+    },
+    {
+      "rule_id": "UNIQ_ORD_ID",
+      "dataset": "orders",
+      "total_records": 100020,
+      "passed": 99980,
+      "failed": 40,
+      "pass_percentage": 99.96
+    },
+    {
+      "rule_id": "RI_ORD_CUST",
+      "dataset": "orders",
+      "total_records": 100020,
+      "passed": 99970,
+      "failed": 50,
+      "pass_percentage": 99.95
+    },
+    {
+      "rule_id": "RI_ORD_PROD",
+      "dataset": "orders",
+      "total_records": 100020,
+      "passed": 99990,
+      "failed": 30,
+      "pass_percentage": 99.97
+    }
+  ]
+}

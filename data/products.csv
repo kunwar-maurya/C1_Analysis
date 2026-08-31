@@ -1,0 +1,501 @@
+product_id,product_name,category,price,cost,stock_quantity,reorder_level
+1,Wireless Headphones 001,Electronics,513.34,184.80,2253,225
+2,Throw Pillow 002,Home,199.69,81.04,839,83
+3,Fleece Hoodie 003,Apparel,542.97,383.81,712,71
+4,Jump Rope 004,Sports,474.44,172.09,767,76
+5,Nail Kit 005,Beauty,178.82,98.73,217,21
+6,Organic Coffee 006,Grocery,451.18,287.13,4464,446
+7,Puzzle Set 007,Toys,338.51,179.30,2278,227
+8,History Guide 008,Books,648.49,228.66,1307,130
+9,Smart Watch 009,Electronics,560.01,272.22,1273,127
+10,Kitchen Towels 010,Home,176.17,115.46,837,83
+11,Cotton T-Shirt 011,Apparel,78.73,30.60,2817,281
+12,Resistance Bands 012,Sports,484.96,326.31,3763,376
+13,Shampoo Bottle 013,Beauty,431.30,318.84,3100,310
+14,Herbal Tea 014,Grocery,67.65,31.61,2962,296
+15,Plush Animal 015,Toys,463.99,293.16,375,37
+16,Paperback Novel 016,Books,530.70,349.85,653,65
+17,USB-C Hub 017,Electronics,684.97,477.15,3113,311
+18,LED Desk Lamp 018,Home,225.99,136.56,2988,298
+19,Baseball Cap 019,Apparel,134.31,66.10,2187,218
+20,Dumbbell Pair 020,Sports,562.94,350.95,584,58
+21,Face Moisturizer 021,Beauty,489.25,204.73,2005,200
+22,Granola Mix 022,Grocery,134.90,67.69,4562,456
+23,Remote Car 023,Toys,179.59,86.15,458,45
+24,Kids Storybook 024,Books,187.09,67.88,2584,258
+25,Laptop Stand 025,Electronics,323.92,121.95,4646,464
+26,Ceramic Mug Set 026,Home,701.70,333.92,4089,408
+27,Running Shorts 027,Apparel,319.52,228.72,3758,375
+28,Water Bottle 028,Sports,118.58,48.13,4598,459
+29,Body Lotion 029,Beauty,433.48,281.24,3509,350
+30,Trail Mix 030,Grocery,718.76,366.40,1796,179
+31,Building Blocks 031,Toys,797.86,323.40,4042,404
+32,Cookbook 032,Books,77.27,28.50,898,89
+33,Bluetooth Speaker 033,Electronics,126.51,52.37,3458,345
+34,Storage Bin 034,Home,479.14,241.44,4881,488
+35,Crew Socks 035,Apparel,796.91,447.58,4532,453
+36,Yoga Mat 036,Sports,689.31,244.42,938,93
+37,Lip Balm Pack 037,Beauty,546.95,308.91,2185,218
+38,Olive Oil 038,Grocery,616.03,299.43,2404,240
+39,Board Game 039,Toys,350.63,186.36,2157,215
+40,Productivity Journal 040,Books,777.64,509.19,4158,415
+41,Wireless Headphones 041,Electronics,730.53,510.06,2444,244
+42,Throw Pillow 042,Home,674.12,372.83,1629,162
+43,Fleece Hoodie 043,Apparel,126.51,82.86,4418,441
+44,Jump Rope 044,Sports,763.02,548.59,4,5
+45,Nail Kit 045,Beauty,481.15,262.44,916,91
+46,Organic Coffee 046,Grocery,743.62,521.64,2519,251
+47,Puzzle Set 047,Toys,195.36,87.20,4647,464
+48,History Guide 048,Books,757.82,291.20,3981,398
+49,Smart Watch 049,Electronics,653.73,484.54,4363,436
+50,Kitchen Towels 050,Home,613.83,246.36,3893,389
+51,Cotton T-Shirt 051,Apparel,757.74,315.26,4322,432
+52,Resistance Bands 052,Sports,698.58,362.74,1735,173
+53,Shampoo Bottle 053,Beauty,743.48,484.83,1647,164
+54,Herbal Tea 054,Grocery,571.79,291.38,3059,305
+55,Plush Animal 055,Toys,353.29,196.79,991,99
+56,Paperback Novel 056,Books,202.08,75.90,172,17
+57,USB-C Hub 057,Electronics,472.70,208.96,1804,180
+58,LED Desk Lamp 058,Home,10.72,6.79,482,48
+59,Baseball Cap 059,Apparel,187.01,133.18,2706,270
+60,Dumbbell Pair 060,Sports,61.33,27.30,3976,397
+61,Face Moisturizer 061,Beauty,175.32,70.64,4677,467
+62,Granola Mix 062,Grocery,463.08,207.09,3874,387
+63,Remote Car 063,Toys,646.95,275.71,794,79
+64,Kids Storybook 064,Books,528.88,260.06,3367,336
+65,Laptop Stand 065,Electronics,376.28,241.43,806,80
+66,Ceramic Mug Set 066,Home,53.19,34.11,895,89
+67,Running Shorts 067,Apparel,202.68,86.36,3675,367
+68,Water Bottle 068,Sports,116.44,49.30,3789,378
+69,Body Lotion 069,Beauty,203.59,146.44,3630,363
+70,Trail Mix 070,Grocery,647.37,448.23,802,80
+71,Building Blocks 071,Toys,45.22,33.90,120,12
+72,Cookbook 072,Books,775.34,558.67,1936,193
+73,Bluetooth Speaker 073,Electronics,137.22,74.68,1751,175
+74,Storage Bin 074,Home,692.39,492.27,1348,134
+75,Crew Socks 075,Apparel,306.28,227.91,2172,217
+76,Yoga Mat 076,Sports,741.57,492.44,2336,233
+77,Lip Balm Pack 077,Beauty,341.29,250.14,4552,455
+78,Olive Oil 078,Grocery,531.18,289.32,1555,155
+79,Board Game 079,Toys,240.88,177.65,4744,474
+80,Productivity Journal 080,Books,589.90,220.85,2569,256
+81,Wireless Headphones 081,Electronics,50.45,29.45,4119,411
+82,Throw Pillow 082,Home,735.90,413.91,465,46
+83,Fleece Hoodie 083,Apparel,768.81,293.72,1522,152
+84,Jump Rope 084,Sports,59.47,22.43,1926,192
+85,Nail Kit 085,Beauty,326.00,236.88,4666,466
+86,Organic Coffee 086,Grocery,200.74,118.00,671,67
+87,Puzzle Set 087,Toys,338.28,197.38,4282,428
+88,History Guide 088,Books,256.51,116.53,2573,257
+89,Smart Watch 089,Electronics,194.75,98.99,2457,245
+90,Kitchen Towels 090,Home,368.49,265.91,594,59
+91,Cotton T-Shirt 091,Apparel,12.41,7.43,4612,461
+92,Resistance Bands 092,Sports,796.89,302.26,1746,174
+93,Shampoo Bottle 093,Beauty,407.17,164.08,2859,285
+94,Herbal Tea 094,Grocery,705.28,494.90,3027,302
+95,Plush Animal 095,Toys,231.56,121.63,4450,445
+96,Paperback Novel 096,Books,564.31,335.58,4333,433
+97,USB-C Hub 097,Electronics,11.22,7.59,2452,245
+98,LED Desk Lamp 098,Home,745.74,291.91,1100,110
+99,Baseball Cap 099,Apparel,215.25,151.94,4532,453
+100,Dumbbell Pair 100,Sports,128.58,59.49,1725,172
+101,Face Moisturizer 101,Beauty,575.49,248.29,2162,216
+102,Granola Mix 102,Grocery,406.80,183.24,416,41
+103,Remote Car 103,Toys,78.38,40.71,2266,226
+104,Kids Storybook 104,Books,40.05,19.36,1071,107
+105,Laptop Stand 105,Electronics,511.50,232.62,3619,361
+106,Ceramic Mug Set 106,Home,443.58,231.14,79,7
+107,Running Shorts 107,Apparel,93.94,68.39,1221,122
+108,Water Bottle 108,Sports,438.74,300.03,4771,477
+109,Body Lotion 109,Beauty,444.25,231.86,342,34
+110,Trail Mix 110,Grocery,250.06,177.44,326,32
+111,Building Blocks 111,Toys,719.64,312.35,2044,204
+112,Cookbook 112,Books,535.21,263.04,4586,458
+113,Bluetooth Speaker 113,Electronics,707.88,362.82,1266,126
+114,Storage Bin 114,Home,740.97,329.51,1331,133
+115,Crew Socks 115,Apparel,781.07,526.68,3377,337
+116,Yoga Mat 116,Sports,24.70,15.92,2721,272
+117,Lip Balm Pack 117,Beauty,626.99,322.70,2032,203
+118,Olive Oil 118,Grocery,217.11,144.37,885,88
+119,Board Game 119,Toys,309.12,112.98,3855,385
+120,Productivity Journal 120,Books,181.83,123.03,3770,377
+121,Wireless Headphones 121,Electronics,282.97,191.91,1864,186
+122,Throw Pillow 122,Home,182.22,111.89,3264,326
+123,Fleece Hoodie 123,Apparel,265.96,185.04,2286,228
+124,Jump Rope 124,Sports,284.16,157.36,4392,439
+125,Nail Kit 125,Beauty,268.26,96.85,2139,213
+126,Organic Coffee 126,Grocery,146.96,108.02,2174,217
+127,Puzzle Set 127,Toys,35.41,20.84,2831,283
+128,History Guide 128,Books,584.19,277.77,4966,496
+129,Smart Watch 129,Electronics,787.46,312.04,4723,472
+130,Kitchen Towels 130,Home,156.11,57.41,3572,357
+131,Cotton T-Shirt 131,Apparel,6.34,4.57,4410,441
+132,Resistance Bands 132,Sports,551.04,400.11,1614,161
+133,Shampoo Bottle 133,Beauty,294.55,111.34,2704,270
+134,Herbal Tea 134,Grocery,500.40,307.92,1020,102
+135,Plush Animal 135,Toys,577.20,271.36,2533,253
+136,Paperback Novel 136,Books,535.17,257.13,2422,242
+137,USB-C Hub 137,Electronics,445.75,190.22,3105,310
+138,LED Desk Lamp 138,Home,543.46,386.47,4662,466
+139,Baseball Cap 139,Apparel,244.25,139.02,3,5
+140,Dumbbell Pair 140,Sports,246.58,107.03,4751,475
+141,Face Moisturizer 141,Beauty,487.29,233.36,3619,361
+142,Granola Mix 142,Grocery,356.51,155.25,3876,387
+143,Remote Car 143,Toys,636.01,466.79,1390,139
+144,Kids Storybook 144,Books,528.78,245.10,2745,274
+145,Laptop Stand 145,Electronics,79.24,57.91,1924,192
+146,Ceramic Mug Set 146,Home,539.87,237.47,1631,163
+147,Running Shorts 147,Apparel,122.14,45.01,3892,389
+148,Water Bottle 148,Sports,490.96,322.76,3730,373
+149,Body Lotion 149,Beauty,334.48,201.33,1592,159
+150,Trail Mix 150,Grocery,576.08,290.11,3273,327
+151,Building Blocks 151,Toys,198.97,121.85,45,5
+152,Cookbook 152,Books,714.66,496.10,873,87
+153,Bluetooth Speaker 153,Electronics,623.84,272.95,4243,424
+154,Storage Bin 154,Home,374.31,214.47,994,99
+155,Crew Socks 155,Apparel,367.88,246.69,4351,435
+156,Yoga Mat 156,Sports,790.36,464.87,3625,362
+157,Lip Balm Pack 157,Beauty,492.05,313.79,4135,413
+158,Olive Oil 158,Grocery,344.25,245.36,3652,365
+159,Board Game 159,Toys,718.27,465.05,3888,388
+160,Productivity Journal 160,Books,362.80,236.08,2271,227
+161,Wireless Headphones 161,Electronics,613.81,342.83,1959,195
+162,Throw Pillow 162,Home,223.30,85.08,2340,234
+163,Fleece Hoodie 163,Apparel,191.42,92.71,4424,442
+164,Jump Rope 164,Sports,69.06,28.34,3137,313
+165,Nail Kit 165,Beauty,556.68,352.14,526,52
+166,Organic Coffee 166,Grocery,334.82,161.50,3816,381
+167,Puzzle Set 167,Toys,335.54,145.20,3441,344
+168,History Guide 168,Books,314.63,207.00,160,16
+169,Smart Watch 169,Electronics,686.09,450.24,3116,311
+170,Kitchen Towels 170,Home,384.19,279.34,2446,244
+171,Cotton T-Shirt 171,Apparel,604.01,417.60,3432,343
+172,Resistance Bands 172,Sports,432.88,278.71,4941,494
+173,Shampoo Bottle 173,Beauty,718.75,391.93,2235,223
+174,Herbal Tea 174,Grocery,351.49,127.10,2753,275
+175,Plush Animal 175,Toys,536.75,359.22,1352,135
+176,Paperback Novel 176,Books,673.19,483.23,4375,437
+177,USB-C Hub 177,Electronics,26.44,13.42,4623,462
+178,LED Desk Lamp 178,Home,532.08,204.09,3511,351
+179,Baseball Cap 179,Apparel,112.88,60.35,411,41
+180,Dumbbell Pair 180,Sports,211.82,101.87,3724,372
+181,Face Moisturizer 181,Beauty,264.84,173.34,3105,310
+182,Granola Mix 182,Grocery,226.21,165.24,3453,345
+183,Remote Car 183,Toys,205.55,78.68,158,15
+184,Kids Storybook 184,Books,600.47,222.67,2866,286
+185,Laptop Stand 185,Electronics,183.25,69.17,329,32
+186,Ceramic Mug Set 186,Home,604.61,441.27,1633,163
+187,Running Shorts 187,Apparel,672.18,402.32,1954,195
+188,Water Bottle 188,Sports,105.34,65.08,4620,462
+189,Body Lotion 189,Beauty,758.46,406.54,2099,209
+190,Trail Mix 190,Grocery,614.68,256.39,4974,497
+191,Building Blocks 191,Toys,771.16,491.49,1341,134
+192,Cookbook 192,Books,771.94,303.56,210,21
+193,Bluetooth Speaker 193,Electronics,743.46,431.44,3074,307
+194,Storage Bin 194,Home,320.34,203.74,622,62
+195,Crew Socks 195,Apparel,475.71,324.54,1989,198
+196,Yoga Mat 196,Sports,86.01,56.68,4918,491
+197,Lip Balm Pack 197,Beauty,645.39,431.44,4636,463
+198,Olive Oil 198,Grocery,627.19,306.62,3509,350
+199,Board Game 199,Toys,530.90,200.46,2795,279
+200,Productivity Journal 200,Books,15.06,7.80,4015,401
+201,Wireless Headphones 201,Electronics,88.90,65.28,3766,376
+202,Throw Pillow 202,Home,567.30,297.38,4274,427
+203,Fleece Hoodie 203,Apparel,772.54,353.85,4408,440
+204,Jump Rope 204,Sports,620.83,332.73,4853,485
+205,Nail Kit 205,Beauty,218.37,150.82,709,70
+206,Organic Coffee 206,Grocery,226.75,120.25,3806,380
+207,Puzzle Set 207,Toys,458.02,282.72,2755,275
+208,History Guide 208,Books,27.82,19.21,1489,148
+209,Smart Watch 209,Electronics,392.60,193.13,2116,211
+210,Kitchen Towels 210,Home,275.57,193.49,2263,226
+211,Cotton T-Shirt 211,Apparel,446.85,248.74,1565,156
+212,Resistance Bands 212,Sports,73.06,46.61,4002,400
+213,Shampoo Bottle 213,Beauty,446.36,199.13,3900,390
+214,Herbal Tea 214,Grocery,518.49,283.27,141,14
+215,Plush Animal 215,Toys,78.98,34.64,1993,199
+216,Paperback Novel 216,Books,248.43,144.74,3876,387
+217,USB-C Hub 217,Electronics,445.01,216.94,4508,450
+218,LED Desk Lamp 218,Home,267.98,169.13,2219,221
+219,Baseball Cap 219,Apparel,248.76,110.01,1577,157
+220,Dumbbell Pair 220,Sports,255.86,165.58,1516,151
+221,Face Moisturizer 221,Beauty,157.27,101.51,2265,226
+222,Granola Mix 222,Grocery,581.04,430.34,4297,429
+223,Remote Car 223,Toys,479.44,355.84,1590,159
+224,Kids Storybook 224,Books,240.51,118.90,2476,247
+225,Laptop Stand 225,Electronics,16.25,9.16,2247,224
+226,Ceramic Mug Set 226,Home,41.18,15.31,2393,239
+227,Running Shorts 227,Apparel,559.44,224.06,4021,402
+228,Water Bottle 228,Sports,86.56,30.72,2329,232
+229,Body Lotion 229,Beauty,378.17,198.99,1510,151
+230,Trail Mix 230,Grocery,772.56,348.42,3913,391
+231,Building Blocks 231,Toys,95.70,36.00,4028,402
+232,Cookbook 232,Books,63.89,38.45,439,43
+233,Bluetooth Speaker 233,Electronics,125.62,84.73,2489,248
+234,Storage Bin 234,Home,72.72,32.67,4571,457
+235,Crew Socks 235,Apparel,612.72,363.05,1848,184
+236,Yoga Mat 236,Sports,621.67,312.17,3626,362
+237,Lip Balm Pack 237,Beauty,241.39,141.31,3512,351
+238,Olive Oil 238,Grocery,247.77,148.27,4994,499
+239,Board Game 239,Toys,768.28,299.39,1702,170
+240,Productivity Journal 240,Books,502.28,228.97,665,66
+241,Wireless Headphones 241,Electronics,129.86,54.48,614,61
+242,Throw Pillow 242,Home,129.44,66.46,4864,486
+243,Fleece Hoodie 243,Apparel,378.58,137.45,2360,236
+244,Jump Rope 244,Sports,567.02,357.90,3719,371
+245,Nail Kit 245,Beauty,61.59,27.31,2167,216
+246,Organic Coffee 246,Grocery,631.32,378.81,1620,162
+247,Puzzle Set 247,Toys,342.98,194.75,1220,122
+248,History Guide 248,Books,727.18,494.96,584,58
+249,Smart Watch 249,Electronics,52.41,34.96,4874,487
+250,Kitchen Towels 250,Home,600.41,346.85,2364,236
+251,Cotton T-Shirt 251,Apparel,354.12,190.33,2491,249
+252,Resistance Bands 252,Sports,561.28,408.09,4099,409
+253,Shampoo Bottle 253,Beauty,434.28,228.04,4899,489
+254,Herbal Tea 254,Grocery,36.69,19.18,2640,264
+255,Plush Animal 255,Toys,484.95,174.75,1875,187
+256,Paperback Novel 256,Books,769.71,526.78,4712,471
+257,USB-C Hub 257,Electronics,471.76,169.03,2207,220
+258,LED Desk Lamp 258,Home,463.11,303.45,1435,143
+259,Baseball Cap 259,Apparel,379.04,231.44,2278,227
+260,Dumbbell Pair 260,Sports,149.28,87.20,4028,402
+261,Face Moisturizer 261,Beauty,775.39,417.16,3345,334
+262,Granola Mix 262,Grocery,269.98,166.86,1317,131
+263,Remote Car 263,Toys,267.19,167.65,2361,236
+264,Kids Storybook 264,Books,531.75,271.29,4506,450
+265,Laptop Stand 265,Electronics,34.17,13.16,2067,206
+266,Ceramic Mug Set 266,Home,262.00,193.38,3311,331
+267,Running Shorts 267,Apparel,692.60,470.95,9,5
+268,Water Bottle 268,Sports,527.83,299.30,3385,338
+269,Body Lotion 269,Beauty,48.09,26.80,4083,408
+270,Trail Mix 270,Grocery,502.19,328.43,1667,166
+271,Building Blocks 271,Toys,217.31,87.45,2359,235
+272,Cookbook 272,Books,353.30,222.33,994,99
+273,Bluetooth Speaker 273,Electronics,27.95,16.83,1960,196
+274,Storage Bin 274,Home,569.27,270.00,112,11
+275,Crew Socks 275,Apparel,444.03,171.97,929,92
+276,Yoga Mat 276,Sports,371.85,147.62,1261,126
+277,Lip Balm Pack 277,Beauty,401.20,255.42,4168,416
+278,Olive Oil 278,Grocery,565.80,292.06,3952,395
+279,Board Game 279,Toys,784.28,350.96,4515,451
+280,Productivity Journal 280,Books,119.99,51.15,4910,491
+281,Wireless Headphones 281,Electronics,409.05,287.04,571,57
+282,Throw Pillow 282,Home,224.61,149.59,3399,339
+283,Fleece Hoodie 283,Apparel,275.20,183.03,2188,218
+284,Jump Rope 284,Sports,657.33,304.43,2445,244
+285,Nail Kit 285,Beauty,670.78,390.37,4011,401
+286,Organic Coffee 286,Grocery,692.87,366.26,3967,396
+287,Puzzle Set 287,Toys,279.37,159.46,4451,445
+288,History Guide 288,Books,304.88,220.47,1545,154
+289,Smart Watch 289,Electronics,784.71,349.61,3137,313
+290,Kitchen Towels 290,Home,190.68,125.89,357,35
+291,Cotton T-Shirt 291,Apparel,257.95,139.08,3123,312
+292,Resistance Bands 292,Sports,311.93,191.99,1246,124
+293,Shampoo Bottle 293,Beauty,398.78,145.48,4114,411
+294,Herbal Tea 294,Grocery,772.45,372.94,822,82
+295,Plush Animal 295,Toys,699.97,368.27,4308,430
+296,Paperback Novel 296,Books,728.79,259.55,1180,118
+297,USB-C Hub 297,Electronics,330.93,202.50,1264,126
+298,LED Desk Lamp 298,Home,64.49,42.73,2171,217
+299,Baseball Cap 299,Apparel,274.15,171.91,657,65
+300,Dumbbell Pair 300,Sports,682.14,471.32,4371,437
+301,Face Moisturizer 301,Beauty,307.10,146.38,3997,399
+302,Granola Mix 302,Grocery,698.54,254.52,560,56
+303,Remote Car 303,Toys,191.64,119.54,2354,235
+304,Kids Storybook 304,Books,797.94,517.63,3555,355
+305,Laptop Stand 305,Electronics,782.77,512.05,823,82
+306,Ceramic Mug Set 306,Home,357.72,224.51,237,23
+307,Running Shorts 307,Apparel,41.56,27.78,2403,240
+308,Water Bottle 308,Sports,289.97,151.44,2000,200
+309,Body Lotion 309,Beauty,427.27,246.27,1475,147
+310,Trail Mix 310,Grocery,140.14,53.48,3133,313
+311,Building Blocks 311,Toys,497.66,222.12,4777,477
+312,Cookbook 312,Books,118.78,63.48,2080,208
+313,Bluetooth Speaker 313,Electronics,370.35,228.41,3811,381
+314,Storage Bin 314,Home,721.45,448.05,1294,129
+315,Crew Socks 315,Apparel,63.72,46.39,4813,481
+316,Yoga Mat 316,Sports,242.82,178.43,2048,204
+317,Lip Balm Pack 317,Beauty,368.18,173.36,3151,315
+318,Olive Oil 318,Grocery,683.39,268.34,3124,312
+319,Board Game 319,Toys,459.67,266.57,2418,241
+320,Productivity Journal 320,Books,22.44,15.30,3242,324
+321,Wireless Headphones 321,Electronics,223.21,128.65,401,40
+322,Throw Pillow 322,Home,728.93,472.40,2344,234
+323,Fleece Hoodie 323,Apparel,621.71,274.83,2886,288
+324,Jump Rope 324,Sports,179.11,76.31,2053,205
+325,Nail Kit 325,Beauty,543.82,347.16,1120,112
+326,Organic Coffee 326,Grocery,504.45,358.85,322,32
+327,Puzzle Set 327,Toys,250.60,131.90,4747,474
+328,History Guide 328,Books,295.06,118.78,2417,241
+329,Smart Watch 329,Electronics,264.74,136.66,1644,164
+330,Kitchen Towels 330,Home,110.07,62.27,2997,299
+331,Cotton T-Shirt 331,Apparel,427.02,305.49,1347,134
+332,Resistance Bands 332,Sports,209.29,142.29,3947,394
+333,Shampoo Bottle 333,Beauty,774.06,362.30,2774,277
+334,Herbal Tea 334,Grocery,644.36,346.24,616,61
+335,Plush Animal 335,Toys,116.90,86.11,3255,325
+336,Paperback Novel 336,Books,773.97,519.98,2996,299
+337,USB-C Hub 337,Electronics,76.79,39.00,2166,216
+338,LED Desk Lamp 338,Home,431.57,229.56,2147,214
+339,Baseball Cap 339,Apparel,469.72,318.92,3043,304
+340,Dumbbell Pair 340,Sports,91.13,40.42,205,20
+341,Face Moisturizer 341,Beauty,497.53,361.84,2687,268
+342,Granola Mix 342,Grocery,732.62,321.29,517,51
+343,Remote Car 343,Toys,510.14,273.29,2475,247
+344,Kids Storybook 344,Books,521.14,206.72,371,37
+345,Laptop Stand 345,Electronics,757.27,357.24,4035,403
+346,Ceramic Mug Set 346,Home,97.31,43.20,4403,440
+347,Running Shorts 347,Apparel,112.85,59.97,4425,442
+348,Water Bottle 348,Sports,338.20,218.78,1265,126
+349,Body Lotion 349,Beauty,708.90,433.82,4008,400
+350,Trail Mix 350,Grocery,494.44,358.78,2291,229
+351,Building Blocks 351,Toys,31.01,15.45,3632,363
+352,Cookbook 352,Books,358.53,159.35,2971,297
+353,Bluetooth Speaker 353,Electronics,83.99,52.43,4460,446
+354,Storage Bin 354,Home,721.84,438.83,496,49
+355,Crew Socks 355,Apparel,321.52,136.94,1000,100
+356,Yoga Mat 356,Sports,759.45,516.18,750,75
+357,Lip Balm Pack 357,Beauty,531.89,322.69,4891,489
+358,Olive Oil 358,Grocery,777.01,287.67,2732,273
+359,Board Game 359,Toys,198.63,79.53,4625,462
+360,Productivity Journal 360,Books,168.14,114.66,4540,454
+361,Wireless Headphones 361,Electronics,169.69,74.05,1908,190
+362,Throw Pillow 362,Home,266.20,108.88,4882,488
+363,Fleece Hoodie 363,Apparel,7.25,5.03,1185,118
+364,Jump Rope 364,Sports,790.07,447.25,1429,142
+365,Nail Kit 365,Beauty,92.39,64.36,1079,107
+366,Organic Coffee 366,Grocery,16.81,11.20,1949,194
+367,Puzzle Set 367,Toys,473.13,168.58,2173,217
+368,History Guide 368,Books,46.66,30.17,4309,430
+369,Smart Watch 369,Electronics,95.35,35.80,3672,367
+370,Kitchen Towels 370,Home,623.52,346.24,893,89
+371,Cotton T-Shirt 371,Apparel,364.34,159.81,355,35
+372,Resistance Bands 372,Sports,583.15,416.08,4271,427
+373,Shampoo Bottle 373,Beauty,244.79,148.67,255,25
+374,Herbal Tea 374,Grocery,53.36,28.90,3290,329
+375,Plush Animal 375,Toys,343.88,135.21,3633,363
+376,Paperback Novel 376,Books,63.42,24.25,4983,498
+377,USB-C Hub 377,Electronics,122.92,49.23,4795,479
+378,LED Desk Lamp 378,Home,440.94,211.68,4893,489
+379,Baseball Cap 379,Apparel,426.79,226.83,4959,495
+380,Dumbbell Pair 380,Sports,347.00,231.53,937,93
+381,Face Moisturizer 381,Beauty,682.96,416.86,4516,451
+382,Granola Mix 382,Grocery,578.06,252.04,3699,369
+383,Remote Car 383,Toys,711.02,366.55,3715,371
+384,Kids Storybook 384,Books,321.99,206.67,2560,256
+385,Laptop Stand 385,Electronics,344.27,212.09,3066,306
+386,Ceramic Mug Set 386,Home,763.10,476.73,3885,388
+387,Running Shorts 387,Apparel,58.37,39.85,763,76
+388,Water Bottle 388,Sports,348.34,225.67,3052,305
+389,Body Lotion 389,Beauty,650.35,372.36,4804,480
+390,Trail Mix 390,Grocery,765.51,439.92,1001,100
+391,Building Blocks 391,Toys,331.59,231.93,3464,346
+392,Cookbook 392,Books,695.12,443.78,2356,235
+393,Bluetooth Speaker 393,Electronics,482.32,236.65,4734,473
+394,Storage Bin 394,Home,408.39,168.21,3950,395
+395,Crew Socks 395,Apparel,183.27,72.08,4556,455
+396,Yoga Mat 396,Sports,297.21,194.69,4703,470
+397,Lip Balm Pack 397,Beauty,184.79,96.39,4595,459
+398,Olive Oil 398,Grocery,779.75,528.18,4560,456
+399,Board Game 399,Toys,25.87,18.67,2190,219
+400,Productivity Journal 400,Books,28.02,12.87,2531,253
+401,Wireless Headphones 401,Electronics,737.61,361.73,1486,148
+402,Throw Pillow 402,Home,696.53,401.57,3283,328
+403,Fleece Hoodie 403,Apparel,60.32,38.99,251,25
+404,Jump Rope 404,Sports,77.95,43.82,3081,308
+405,Nail Kit 405,Beauty,338.76,164.76,3031,303
+406,Organic Coffee 406,Grocery,252.75,121.26,4649,464
+407,Puzzle Set 407,Toys,478.99,336.89,1274,127
+408,History Guide 408,Books,130.14,77.71,668,66
+409,Smart Watch 409,Electronics,221.32,136.06,3978,397
+410,Kitchen Towels 410,Home,487.62,251.45,1765,176
+411,Cotton T-Shirt 411,Apparel,605.17,239.36,3521,352
+412,Resistance Bands 412,Sports,93.16,57.88,4858,485
+413,Shampoo Bottle 413,Beauty,391.87,241.73,372,37
+414,Herbal Tea 414,Grocery,180.31,134.11,448,44
+415,Plush Animal 415,Toys,11.11,5.23,1730,173
+416,Paperback Novel 416,Books,615.04,403.26,2371,237
+417,USB-C Hub 417,Electronics,265.85,93.87,3527,352
+418,LED Desk Lamp 418,Home,144.68,72.64,1885,188
+419,Baseball Cap 419,Apparel,402.70,275.18,2901,290
+420,Dumbbell Pair 420,Sports,62.30,43.28,346,34
+421,Face Moisturizer 421,Beauty,351.79,187.82,637,63
+422,Granola Mix 422,Grocery,690.37,400.62,4697,469
+423,Remote Car 423,Toys,326.51,197.88,2371,237
+424,Kids Storybook 424,Books,96.56,34.60,2660,266
+425,Laptop Stand 425,Electronics,141.64,103.26,3769,376
+426,Ceramic Mug Set 426,Home,666.45,478.45,721,72
+427,Running Shorts 427,Apparel,352.18,138.18,3569,356
+428,Water Bottle 428,Sports,473.15,264.77,3242,324
+429,Body Lotion 429,Beauty,697.06,451.92,1815,181
+430,Trail Mix 430,Grocery,269.79,112.57,4181,418
+431,Building Blocks 431,Toys,508.41,285.85,1588,158
+432,Cookbook 432,Books,725.20,355.17,1209,120
+433,Bluetooth Speaker 433,Electronics,192.83,78.79,1616,161
+434,Storage Bin 434,Home,142.93,58.77,617,61
+435,Crew Socks 435,Apparel,145.83,96.12,4047,404
+436,Yoga Mat 436,Sports,373.84,215.14,4747,474
+437,Lip Balm Pack 437,Beauty,361.88,260.43,4624,462
+438,Olive Oil 438,Grocery,516.17,384.35,2647,264
+439,Board Game 439,Toys,692.07,415.86,1236,123
+440,Productivity Journal 440,Books,354.61,190.63,2480,248
+441,Wireless Headphones 441,Electronics,638.07,374.27,2883,288
+442,Throw Pillow 442,Home,408.33,193.62,3702,370
+443,Fleece Hoodie 443,Apparel,34.90,17.36,2351,235
+444,Jump Rope 444,Sports,66.00,45.92,739,73
+445,Nail Kit 445,Beauty,493.93,273.06,3790,379
+446,Organic Coffee 446,Grocery,466.36,341.23,336,33
+447,Puzzle Set 447,Toys,362.53,244.32,1542,154
+448,History Guide 448,Books,260.61,140.79,1235,123
+449,Smart Watch 449,Electronics,766.38,406.34,2813,281
+450,Kitchen Towels 450,Home,785.99,301.61,1413,141
+451,Cotton T-Shirt 451,Apparel,36.12,22.87,3599,359
+452,Resistance Bands 452,Sports,421.63,250.42,2981,298
+453,Shampoo Bottle 453,Beauty,301.41,139.60,3348,334
+454,Herbal Tea 454,Grocery,620.69,385.80,428,42
+455,Plush Animal 455,Toys,632.43,385.10,539,53
+456,Paperback Novel 456,Books,267.10,153.10,3166,316
+457,USB-C Hub 457,Electronics,230.89,147.65,4937,493
+458,LED Desk Lamp 458,Home,699.25,337.98,4773,477
+459,Baseball Cap 459,Apparel,532.56,381.68,2541,254
+460,Dumbbell Pair 460,Sports,774.31,487.34,3210,321
+461,Face Moisturizer 461,Beauty,107.52,68.12,694,69
+462,Granola Mix 462,Grocery,251.11,125.72,2690,269
+463,Remote Car 463,Toys,651.47,402.64,4312,431
+464,Kids Storybook 464,Books,79.29,49.02,4165,416
+465,Laptop Stand 465,Electronics,292.65,144.87,1476,147
+466,Ceramic Mug Set 466,Home,761.17,370.46,3983,398
+467,Running Shorts 467,Apparel,157.64,118.23,1269,126
+468,Water Bottle 468,Sports,66.35,45.63,828,82
+469,Body Lotion 469,Beauty,408.61,231.24,4313,431
+470,Trail Mix 470,Grocery,35.01,16.97,1073,107
+471,Building Blocks 471,Toys,479.80,197.53,1481,148
+472,Cookbook 472,Books,665.91,438.46,1356,135
+473,Bluetooth Speaker 473,Electronics,578.33,212.52,2984,298
+474,Storage Bin 474,Home,542.70,241.51,3638,363
+475,Crew Socks 475,Apparel,490.42,319.24,3677,367
+476,Yoga Mat 476,Sports,191.03,85.14,3842,384
+477,Lip Balm Pack 477,Beauty,723.65,309.44,4672,467
+478,Olive Oil 478,Grocery,787.62,421.12,2308,230
+479,Board Game 479,Toys,623.60,343.71,3429,342
+480,Productivity Journal 480,Books,773.17,523.25,4953,495
+481,Wireless Headphones 481,Electronics,115.03,51.76,3936,393
+482,Throw Pillow 482,Home,699.91,400.22,840,84
+483,Fleece Hoodie 483,Apparel,570.56,317.44,1021,102
+484,Jump Rope 484,Sports,231.62,151.77,2234,223
+485,Nail Kit 485,Beauty,362.20,201.14,3583,358
+486,Organic Coffee 486,Grocery,77.91,55.64,3695,369
+487,Puzzle Set 487,Toys,708.27,511.50,3398,339
+488,History Guide 488,Books,47.34,26.08,1931,193
+489,Smart Watch 489,Electronics,312.00,119.38,1839,183
+490,Kitchen Towels 490,Home,27.41,19.80,2746,274
+491,Cotton T-Shirt 491,Apparel,634.14,256.85,2350,235
+492,Resistance Bands 492,Sports,734.32,395.79,1136,113
+493,Shampoo Bottle 493,Beauty,608.27,327.03,43,5
+494,Herbal Tea 494,Grocery,725.15,259.31,1766,176
+495,Plush Animal 495,Toys,668.79,380.89,4987,498
+496,Paperback Novel 496,Books,424.57,167.48,2360,236
+497,USB-C Hub 497,Electronics,193.92,77.32,1953,195
+498,LED Desk Lamp 498,Home,338.76,226.14,3744,374
+499,Baseball Cap 499,Apparel,54.93,37.61,4094,409
+500,Dumbbell Pair 500,Sports,479.40,170.94,4221,422
